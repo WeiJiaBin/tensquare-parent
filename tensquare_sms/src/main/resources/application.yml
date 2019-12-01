@@ -1,0 +1,13 @@
+server:
+  port: 9009
+spring:
+  application:
+    name: tensquare-sms #指定服务名
+  rabbitmq:
+    host: 192.168.15.129
+aliyun:
+  sms:
+    accessKeyId: LTAI4FjR8iDFPrWwcLpqk7qP
+    accessKeySecret: NH6OGsKchBjNQ1WcToMolSwrzN3L1z
+    template_code: SMS_177360244
+    sign_name: BiniCan
